@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+body{
+    background: #f0f2f5 !important;
+    font-family: sans-serif;
+    font-family: var(--bs-body-font-family);
+}
+.facebook-name{
+    list-style-type: none;
+    font-family: inherit !important;
+}
+#li-1{
+    margin-top: 178px;
+    float: left;
+    margin-left: 150px;
+    font-family: inherit;
+}
+.facebook-img{
+    padding: 11px 0 16px;
+}
+.imgfcbook{
+    height: 106px;
+    margin: -28px;
+}
+h3{
+    font-size: 29px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+#li-2{
+    list-style-type:  none;
+    float: left;
+    margin-top: 115px;
+    margin-left: 82px;
+}
+div.from{
+    background-color: #ffffff;
+    width: 395px;
+    padding: 16px 15px 0px 16px;
+    border: none;
+    margin-left: 15px;
+    padding-bottom: 23px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+input[type=text],input[type=password]{
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    width: 364px;
+    padding: 14px 16px;
+    font-size: 16px;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+button.Log{
+    background-color: #1877f2;
+    color: white;
+    width: 364px;
+    font-size: 20px;
+    padding: 0 16px;
+    border: none;
+    line-height: 48px;
+    border-radius: 6px;
+    margin-bottom: 10px !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+button.Log:hover{
+    cursor: pointer;
+    background-color: #1c73e4;
+}
+#a-1{
+    color: #4d96f5;
+    text-decoration: none;
+    margin-left: 115px;
+    margin-top: 12px !important;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#a-1:hover{
+    text-decoration: underline;
+}
+hr{
+    border: 1px solid #dddfe2;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.account{
+    background-color: #47b830;
+    color: white;
+    font-size: 17px;
+    padding: 0 16px;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-left: 85px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bolder;
+}
+.account a{
+    text-decoration: none;
+    color: white;
+}
+.account a:hover{
+    color: white;
+}
+.account:hover{
+    cursor: pointer;
+    background-color: #36a420;
+}
+p.ptag{
+    margin-left: 68px;
+    margin-top: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#a-2{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+#a-2:hover{
+    text-decoration: underline;
+}
+#b-1{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/*From Section Start*/
+
+/*1st title and sub-title start*/
+.first_title {
+  font-size: 32px;
+  padding: 10px 10px 0px 10px;
+}
+#sub_title {
+  color: #606770;
+  margin-left: 10px;
+}
+hr {
+  margin-top: 10px;
+  opacity: 20%;
+}
+/*1st title and sub-title end*/
+/*Input section start*/
+#all {
+  width: 180px;
+  border-radius: 5px;
+  background: #e6e6e6;
+  height: 35px;
+  border: 1px solid #aaaa;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#all1 {
+  width: 390px;
+  background: #e6e6e6;
+  height: 35px;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+/*Input section end*/
+/*Date of birth section start*/
+.sub_title_2 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+select {
+  width: 125px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 35px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+}
+/*Date of birth section end*/
+/*Gender section start*/
+.sub_title_3 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+#all_gender {
+  width: 110px;
+  height: 25px;
+  border: 1px solid #aaaa;
+  padding: 10px 0px 0px 10px;
+  border-radius: 5px;
+}
+.female {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.male {
+  margin-top: -38px;
+  margin-left: 151px;
+}
+.other {
+  margin-left: 290px;
+  margin-top: -38px;
+}
+/*Gender section end*/
+/*last section start*/
+.sub_title_4 {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #606770;
+}
+.sub_title_4 a {
+  text-decoration: none;
+  color: blue;
+}
+.submit {
+  width: 200px;
+  height: 40px;
+  background: #0ebd02;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+.submit:hover {
+  opacity: 60%;
+}
+/*last section end*/
+/* From Section end */
